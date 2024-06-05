@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap');
+
+@import url('https://fonts.maateen.me/bangla/font.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    background-color: green;
+}
+
+.navigationbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.logo a img {
+    width: 90px;
+}
+
+.menusa {
+    display: flex;
+    gap: 30px;
+}
+
+.menusa li {
+    list-style: none;
+}
+
+.menusa li a {
+    text-decoration: none;
+    font-family: "Noto Sans Bengali", sans-serif;
+    color: #fff;
+}
+
+.hero {
+    padding: 70px 0px;
+    background-color: #FFFF8F;
+}
+
+.herowrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    place-items: center;
+    text-align: center;
+    font-family: "Noto Sans Bengali", sans-serif;
+    font-size: 20px;
+    width: 80%;
+    margin: 0px auto;
+
+}
+
+.heroimg img {
+    width: 100%;
+    filter: drop-shadow(5px 5px 10px #000000);
+}
+
+.herowrapper p span {
+    font-size: 40px;
+}
+
+.herodiscrip p {
+    margin: 20px 0px;
+}
+
+
+
+.Cardsection {
+    background-color: #e1f1fd;
+    padding: 80px 0px;
+}
+
+.cradwraper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    padding: 10px 80px 20px 80px;
+}
+
+.titiletext {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Bangla', sans-serif;
+    font-size: 35px;
+}
+
+.card {
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card img {
+    width: 70%;
+    padding: 10px;
+}
+
+.cardcolor {
+    background-color: orange;
+}
+
+
+.card p {
+    margin: 10px 0px;
+    font-size: 18px;
+    font-family: "Noto Sans Bengali", sans-serif;
+}
+
+
+.lateorder {
+    background-color: #FFB600;
+}
+
+.lateorderimg img {
+    width: 100%;
+    filter: drop-shadow(5px 5px 10px #000000);
+}
+
+.ordernowrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-content: center;
+    place-items: center;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.lateordertitile h1 {
+    font-family: 'Bangla', sans-serif;
+    font-size: 46px;
+    text-align: center;
+}
+
+.lateordertitile {
+    display: grid;
+}
+
+.ordernow {
+    font-family: "Noto Sans Bengali", sans-serif;
+    font-size: 18px;
+    padding: 9px 18px;
+    background-color: #fe0f0f69;
+    border: transparent;
+    border-radius: 5px;
+    color: #fff;
+    margin: 24px auto;
+    width: fit-content;
+}
+
+.whybuysec {
+    background-image: linear-gradient(180deg, #FFE53B 14%, #ff7f25 68%, #8b8522 100%);
+    padding: 40px 0px;
+}
+
+.whyYoulist li {
+    list-style: none;
+    line-height: 2.3;
+    font-size: 14px;
+    font-family: "Noto Sans Bengali", sans-serif;
+}
+
+.whyYoulist li i {
+    margin-right: 15px;
+    color: black;
+}
+
+.whybuy h1 {
+    font-family: 'Bangla', sans-serif;
+    font-size: 46px;
+    margin-bottom: 20px;
+
+}
