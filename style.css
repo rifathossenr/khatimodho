@@ -15,7 +15,10 @@
 }
 
 nav {
-    background-color: green;
+    background-color: #0e525f;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .navigationbar {
@@ -31,7 +34,7 @@ nav {
 }
 
 .logo a img {
-    width: 90px;
+    width: 120px;
 }
 
 .menusa {
@@ -41,12 +44,23 @@ nav {
 
 .menusa li {
     list-style: none;
+    font-size: 18px;
 }
 
 .menusa li a {
     text-decoration: none;
     font-family: "Noto Sans Bengali", sans-serif;
     color: #fff;
+    transition: all .5s;
+
+}
+
+.menusa li a:hover {
+    color: #000000;
+}
+
+.menusa li a i {
+    margin-right: 10px;
 }
 
 .hero {
@@ -161,6 +175,7 @@ nav {
     color: #fff;
     margin: 24px auto;
     width: fit-content;
+    cursor: pointer;
 }
 
 .whybuysec {
@@ -185,4 +200,73 @@ nav {
     font-size: 46px;
     margin-bottom: 20px;
 
+}
+
+
+.orderform {
+    padding: 100px 0px;
+}
+
+.tititleform {
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.tititleform img {
+    width: 80px;
+    margin: 30px 0px;
+}
+
+.tititleform h1 {
+    font-family: "Noto Sans Bengali", sans-serif;
+    font-size: 40px;
+}
+
+
+.fromdiv {
+    width: 50%;
+    margin: 0px auto;
+}
+
+form h1 {
+    margin-bottom: 20px;
+    font-family: "Noto Sans Bengali", sans-serif;
+
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-family: "Noto Sans Bengali", sans-serif;
+    font-size: 15px;
+}
+
+form textarea {
+    width: 100%;
+    resize: vertical;
+    display: block;
+    font-family: "Noto Sans Bengali", sans-serif;
+    font-size: 15px;
+    padding: 10px 10px;
+    height: 140px;
+}
+
+.formbtn {
+    padding: 10px 20px;
+    background-color: rgb(130, 160, 47);
+    border: 1px solid transparent;
+    margin-top: 10px;
+    font-family: "Noto Sans Bengali", sans-serif;
+    font-size: 15px;
+    transition: all .4s;
+    border-radius: 5px;
+}
+
+.formbtn:hover {
+    background: none;
+    border: 1px solid green;
+    cursor: pointer;
 }
