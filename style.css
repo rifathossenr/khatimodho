@@ -51,6 +51,7 @@ nav {
     text-align: center;
     margin: 40px 0px;
     font-family: "Noto Sans Bengali", sans-serif;
+    font-size: 50px;
 }
 
 .menusa li a {
@@ -329,7 +330,7 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     width: 100%;
     place-items: center;
-    border-top: 2px solid black;
+    border-top: 2px solid rgb(255, 255, 255);
     color: #fff;
     font-family: "Noto Sans Bengali", sans-serif;
 
@@ -354,4 +355,81 @@ footer {
 
 .helpspepoule p a:hover {
     text-decoration: underline;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .herotitile {
+        margin-top: 80px;
+        font-size: 40px;
+    }
+
+    .whybuy h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .navigationbar {
+        justify-content: center;
+    }
+
+    .menusa li {
+        font-size: 12px;
+
+    }
+
+    .downfootprent {
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap: 10px;
+    }
+
+    .logoside a img {
+        margin: 0px auto;
+        padding: 40px 40px 0px 40px;
+        width: 258px;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .herotitile {
+        font-size: 45px;
+    }
+
+    .herowrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .cradwraper {
+        gap: 25px;
+        padding: 0px 20px;
+    }
+
+    .fromdiv {
+        width: 80%;
+    }
+
+    .upfootprent {
+        justify-items: left;
+    }
+
+    .importantlink {
+        margin-top: 20px;
+    }
+
+    .upfootprent {
+        width: 85%;
+
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    ...
 }
