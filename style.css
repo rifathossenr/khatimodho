@@ -73,7 +73,6 @@ nav {
 .hero {
     padding: 70px 0px;
     background-color: #FFFF8F;
-    margin-top: ;
 }
 
 .herowrapper {
@@ -360,9 +359,18 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+    .container {
+        padding: 0px 40px;
+    }
+
     .herotitile {
         margin-top: 80px;
         font-size: 40px;
+    }
+
+    .menulist {
+        display: none;
     }
 
     .whybuy h1 {
@@ -390,12 +398,19 @@ footer {
         padding: 40px 40px 0px 40px;
         width: 258px;
     }
+
+
 }
 
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+
+    .container {
+        padding: 0px 40px;
+    }
+
     .herotitile {
         font-size: 45px;
     }
@@ -434,5 +449,7 @@ footer {
     .fromdiv {
         width: 80%;
     }
+
+
 
 }
